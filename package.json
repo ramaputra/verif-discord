@@ -1,26 +1,13 @@
 {
-  "name": "Verification Rama",
-  "version": "0.3.0",
-  "description": "A sample Node.js app using Express 4",
-  "engines": {
-    "node": "8.9.1"
-  },
-  "main": "index.js",
+  "name": "Test",
+  "description": "Test",
+  "version": "0.0.0",
+  "main": "bot.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "node test.js"
+    "start": "node bot.js"
   },
   "dependencies": {
-    "discord.js": "^11.3.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ramaputra/verif-discord"
-  },
-  "keywords": [
-    "node",
-    "heroku",
-    "discord.js"
-  ],
-  "license": "MIT"
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
+  }
 }
