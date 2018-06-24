@@ -1,17 +1,27 @@
 {
   "name": "Verification Rama",
-  "version": "1.0",
-  "description": "Still the best Discord Bot!",
-  "author": "Rama",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ramaputra/verif-discord.git"
+  "version": "0.3.0",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "8.9.1"
+    "npm": "5.6.0"
   },
+  "main": "index.js",
   "scripts": {
-    "windows-install": "npm install discord.js --save",
+    "start": "node index.js",
+    "test": "node test.js"
   },
   "dependencies": {
-    "discord.js": "hydrabolt/discord.js",
-  }
+    "discord.js": "^11.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ramaputra/verif-discord"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "discord.js"
+  ],
+  "license": "MIT"
 }
