@@ -1,0 +1,13 @@
+{
+  "name": "Verification Rama",
+  "version": "1.0.0",
+  "description": "Cool playback bot with other awesome features.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rama",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+  }
+}
