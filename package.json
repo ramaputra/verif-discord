@@ -1,13 +1,17 @@
 {
   "name": "Verification Rama",
-  "version": "1.0.0",
-  "description": "Cool playback bot with other awesome features.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "1.0",
+  "description": "Still the best Discord Bot!",
   "author": "Rama",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ramaputra/verif-discord.git"
+  },
+  "scripts": {
+    "windows-install": "npm install discord.js --save",
+  },
   "dependencies": {
-    "discord.js": "^11.3.2",
+    "discord.js": "hydrabolt/discord.js",
   }
 }
